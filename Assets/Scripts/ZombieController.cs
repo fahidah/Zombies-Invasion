@@ -30,7 +30,7 @@ public class ZombieController : MonoBehaviour
 
     private void MoveZombie()
     {
-        if (animator.name == "Walking")
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Walk"))
         {
             transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime, Space.World); //Move zombie forward after idle is complete 
         }
