@@ -44,21 +44,25 @@ extern void ARFeatheredPlaneMeshVisualizer_GenerateBoundaryUVs_mF756D3C1F7925A69
 extern void ARFeatheredPlaneMeshVisualizer__ctor_m9A77651BCAE58AA0B994FFF6C6B63B1CFF2729F6 (void);
 // 0x00000010 System.Void ARFeatheredPlaneMeshVisualizer::.cctor()
 extern void ARFeatheredPlaneMeshVisualizer__cctor_mF4BA6DDB611A3FD966C8B9494AE6B3EB8647CEAD (void);
-// 0x00000011 UnityEngine.GameObject PlacementController::get_PlacedPrefab()
-extern void PlacementController_get_PlacedPrefab_m61F17F4E8C5326BFD66A766A9DBFEFF989DE2C7C (void);
-// 0x00000012 System.Void PlacementController::set_PlacedPrefab(UnityEngine.GameObject)
-extern void PlacementController_set_PlacedPrefab_mB56FDD726BF41FE5770090C06C8C45A6FE35FE54 (void);
-// 0x00000013 System.Void PlacementController::Awake()
-extern void PlacementController_Awake_m30FDECDB403E2B12568E5D8214828729CE30D452 (void);
-// 0x00000014 System.Boolean PlacementController::TryGetTouchPosition(UnityEngine.Vector2&)
-extern void PlacementController_TryGetTouchPosition_m4E30D3BD44EDCBFFCDAD7697444D3FEFAC0DC8AD (void);
-// 0x00000015 System.Void PlacementController::Update()
-extern void PlacementController_Update_m2A9A8C06C56556E710F96B592E5FBAA17898D775 (void);
-// 0x00000016 System.Void PlacementController::.ctor()
-extern void PlacementController__ctor_m958492B38043C6E15A525ECC2CBF773BA764E823 (void);
-// 0x00000017 System.Void PlacementController::.cctor()
-extern void PlacementController__cctor_mDC75602062FE2277A01CB51C9303D99119107898 (void);
-static Il2CppMethodPointer s_methodPointers[23] = 
+// 0x00000011 System.Void GameController::Awake()
+extern void GameController_Awake_m1173704FBD7757B1E7B187AF0AEF90EDECBC6201 (void);
+// 0x00000012 System.Void GameController::Start()
+extern void GameController_Start_mD0C79B8B5B5D8EDC88F7F2F88B5954B1342198EF (void);
+// 0x00000013 System.Void GameController::Update()
+extern void GameController_Update_m5E36D1D6999A7510DFDFBF6805CF9E9CB50F0962 (void);
+// 0x00000014 System.Void GameController::.ctor()
+extern void GameController__ctor_mB6369F6C5357D5984325D613D589EDA60818CBE9 (void);
+// 0x00000015 System.Void ZombieController::Awake()
+extern void ZombieController_Awake_m778EB788B6202526C83781494E740E43D2E43DEB (void);
+// 0x00000016 System.Void ZombieController::Start()
+extern void ZombieController_Start_mF6354663E9D66A6AE8C71FE2A93CFBE3B2572F47 (void);
+// 0x00000017 System.Void ZombieController::Update()
+extern void ZombieController_Update_m643135274F484C139C718D850EE29141ACEB3C4D (void);
+// 0x00000018 System.Void ZombieController::MoveZombie()
+extern void ZombieController_MoveZombie_mF68B71603E01DA4D53CC60456237D52C0B65CAD7 (void);
+// 0x00000019 System.Void ZombieController::.ctor()
+extern void ZombieController__ctor_m9279076A9CFDE859903CD73E06BD4D8A3B48A5BB (void);
+static Il2CppMethodPointer s_methodPointers[25] = 
 {
 	AnchorCreator_get_AnchorPrefab_mBBAF7805E9D9F8D79408EE642D153BC76306B25A,
 	AnchorCreator_set_AnchorPrefab_m53CC9CC3022C713826B44536B48B462C8A1FACFF,
@@ -76,45 +80,49 @@ static Il2CppMethodPointer s_methodPointers[23] =
 	ARFeatheredPlaneMeshVisualizer_GenerateBoundaryUVs_mF756D3C1F7925A69CD8C7C8CCE56209AB321FEF5,
 	ARFeatheredPlaneMeshVisualizer__ctor_m9A77651BCAE58AA0B994FFF6C6B63B1CFF2729F6,
 	ARFeatheredPlaneMeshVisualizer__cctor_mF4BA6DDB611A3FD966C8B9494AE6B3EB8647CEAD,
-	PlacementController_get_PlacedPrefab_m61F17F4E8C5326BFD66A766A9DBFEFF989DE2C7C,
-	PlacementController_set_PlacedPrefab_mB56FDD726BF41FE5770090C06C8C45A6FE35FE54,
-	PlacementController_Awake_m30FDECDB403E2B12568E5D8214828729CE30D452,
-	PlacementController_TryGetTouchPosition_m4E30D3BD44EDCBFFCDAD7697444D3FEFAC0DC8AD,
-	PlacementController_Update_m2A9A8C06C56556E710F96B592E5FBAA17898D775,
-	PlacementController__ctor_m958492B38043C6E15A525ECC2CBF773BA764E823,
-	PlacementController__cctor_mDC75602062FE2277A01CB51C9303D99119107898,
+	GameController_Awake_m1173704FBD7757B1E7B187AF0AEF90EDECBC6201,
+	GameController_Start_mD0C79B8B5B5D8EDC88F7F2F88B5954B1342198EF,
+	GameController_Update_m5E36D1D6999A7510DFDFBF6805CF9E9CB50F0962,
+	GameController__ctor_mB6369F6C5357D5984325D613D589EDA60818CBE9,
+	ZombieController_Awake_m778EB788B6202526C83781494E740E43D2E43DEB,
+	ZombieController_Start_mF6354663E9D66A6AE8C71FE2A93CFBE3B2572F47,
+	ZombieController_Update_m643135274F484C139C718D850EE29141ACEB3C4D,
+	ZombieController_MoveZombie_mF68B71603E01DA4D53CC60456237D52C0B65CAD7,
+	ZombieController__ctor_m9279076A9CFDE859903CD73E06BD4D8A3B48A5BB,
 };
-static const int32_t s_InvokerIndices[23] = 
+static const int32_t s_InvokerIndices[25] = 
 {
-	6450,
-	5144,
-	6558,
-	6558,
-	6558,
-	6558,
+	6452,
+	5146,
+	6560,
+	6560,
+	6560,
+	6560,
 	10217,
-	6499,
-	5184,
-	6558,
-	6558,
-	6558,
-	5028,
-	5144,
-	6558,
+	6501,
+	5186,
+	6560,
+	6560,
+	6560,
+	5030,
+	5146,
+	6560,
 	10217,
-	6450,
-	5144,
-	6558,
-	3508,
-	6558,
-	6558,
-	10217,
+	6560,
+	6560,
+	6560,
+	6560,
+	6560,
+	6560,
+	6560,
+	6560,
+	6560,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	23,
+	25,
 	s_methodPointers,
 	0,
 	NULL,
