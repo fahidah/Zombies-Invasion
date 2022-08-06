@@ -46,25 +46,21 @@ extern void ARFeatheredPlaneMeshVisualizer__ctor_m9A77651BCAE58AA0B994FFF6C6B63B
 extern void ARFeatheredPlaneMeshVisualizer__cctor_mF4BA6DDB611A3FD966C8B9494AE6B3EB8647CEAD (void);
 // 0x00000011 System.Void GameController::Awake()
 extern void GameController_Awake_m1173704FBD7757B1E7B187AF0AEF90EDECBC6201 (void);
-// 0x00000012 System.Void GameController::Start()
-extern void GameController_Start_mD0C79B8B5B5D8EDC88F7F2F88B5954B1342198EF (void);
-// 0x00000013 System.Void GameController::SpawnZombies()
-extern void GameController_SpawnZombies_m2A32F6722E974B744EF95D6C20D1357870473C07 (void);
-// 0x00000014 System.Void GameController::Spawn()
-extern void GameController_Spawn_mFCEB1E5E274B565DC1E691E5054C3F2594FF0522 (void);
-// 0x00000015 System.Void GameController::.ctor()
+// 0x00000012 System.Void GameController::Update()
+extern void GameController_Update_m5E36D1D6999A7510DFDFBF6805CF9E9CB50F0962 (void);
+// 0x00000013 System.Void GameController::.ctor()
 extern void GameController__ctor_mB6369F6C5357D5984325D613D589EDA60818CBE9 (void);
-// 0x00000016 System.Void ZombieController::Awake()
+// 0x00000014 System.Void ZombieController::Awake()
 extern void ZombieController_Awake_m778EB788B6202526C83781494E740E43D2E43DEB (void);
-// 0x00000017 System.Void ZombieController::Start()
+// 0x00000015 System.Void ZombieController::Start()
 extern void ZombieController_Start_mF6354663E9D66A6AE8C71FE2A93CFBE3B2572F47 (void);
-// 0x00000018 System.Void ZombieController::Update()
+// 0x00000016 System.Void ZombieController::Update()
 extern void ZombieController_Update_m643135274F484C139C718D850EE29141ACEB3C4D (void);
-// 0x00000019 System.Void ZombieController::MoveZombie()
+// 0x00000017 System.Void ZombieController::MoveZombie()
 extern void ZombieController_MoveZombie_mF68B71603E01DA4D53CC60456237D52C0B65CAD7 (void);
-// 0x0000001A System.Void ZombieController::.ctor()
+// 0x00000018 System.Void ZombieController::.ctor()
 extern void ZombieController__ctor_m9279076A9CFDE859903CD73E06BD4D8A3B48A5BB (void);
-static Il2CppMethodPointer s_methodPointers[26] = 
+static Il2CppMethodPointer s_methodPointers[24] = 
 {
 	AnchorCreator_get_AnchorPrefab_mBBAF7805E9D9F8D79408EE642D153BC76306B25A,
 	AnchorCreator_set_AnchorPrefab_m53CC9CC3022C713826B44536B48B462C8A1FACFF,
@@ -83,9 +79,7 @@ static Il2CppMethodPointer s_methodPointers[26] =
 	ARFeatheredPlaneMeshVisualizer__ctor_m9A77651BCAE58AA0B994FFF6C6B63B1CFF2729F6,
 	ARFeatheredPlaneMeshVisualizer__cctor_mF4BA6DDB611A3FD966C8B9494AE6B3EB8647CEAD,
 	GameController_Awake_m1173704FBD7757B1E7B187AF0AEF90EDECBC6201,
-	GameController_Start_mD0C79B8B5B5D8EDC88F7F2F88B5954B1342198EF,
-	GameController_SpawnZombies_m2A32F6722E974B744EF95D6C20D1357870473C07,
-	GameController_Spawn_mFCEB1E5E274B565DC1E691E5054C3F2594FF0522,
+	GameController_Update_m5E36D1D6999A7510DFDFBF6805CF9E9CB50F0962,
 	GameController__ctor_mB6369F6C5357D5984325D613D589EDA60818CBE9,
 	ZombieController_Awake_m778EB788B6202526C83781494E740E43D2E43DEB,
 	ZombieController_Start_mF6354663E9D66A6AE8C71FE2A93CFBE3B2572F47,
@@ -93,7 +87,7 @@ static Il2CppMethodPointer s_methodPointers[26] =
 	ZombieController_MoveZombie_mF68B71603E01DA4D53CC60456237D52C0B65CAD7,
 	ZombieController__ctor_m9279076A9CFDE859903CD73E06BD4D8A3B48A5BB,
 };
-static const int32_t s_InvokerIndices[26] = 
+static const int32_t s_InvokerIndices[24] = 
 {
 	6452,
 	5146,
@@ -119,14 +113,12 @@ static const int32_t s_InvokerIndices[26] =
 	6560,
 	6560,
 	6560,
-	6560,
-	6560,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	26,
+	24,
 	s_methodPointers,
 	0,
 	NULL,
