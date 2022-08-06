@@ -15,19 +15,13 @@ public class GameController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Spawn();
     }
 
 
     private void SpawnZombies()
     {
-        Instantiate(zombies[Random.Range(0, zombies.Length)], new Vector3(Random.Range(-5, 5), 0, Random.Range(-5, 5)), Quaternion.identity);
+        Instantiate(zombies[Random.Range(0, zombies.Length)], transform.position, Quaternion.identity);
 
     }
 
